@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-2 border-gray-100 w-screen fixed">
+    <div className="border-2 border-gray-100 w-screen fixed bg-white z-50">
       <nav className="p-4 bg-white flex justify-between">
         <div className="container mx-auto flex justify-between items-center">
           <Logo />
