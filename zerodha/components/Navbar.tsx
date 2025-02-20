@@ -12,7 +12,9 @@ export default function Navbar() {
     <div className="border-2 border-gray-100 w-screen fixed bg-white z-50">
       <nav className="p-4 bg-white flex justify-between">
         <div className="container mx-auto flex justify-between items-center">
-          <Logo />
+          <a href="/">
+            <Logo />
+          </a>
 
           <div className="flex justify-between items-center">
             <div>
