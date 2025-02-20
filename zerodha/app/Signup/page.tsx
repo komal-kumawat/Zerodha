@@ -15,7 +15,7 @@ export default function Signup() {
    
     return (
         <>
-           <div>
+           <div className="py-[100px] px-[50px] flex flex-col items-center lg:mx-[100px]">
                 <OpenAccount/>
                 <div className="flex justify-center">
                     <Heading type={"h1"} text={"Investment options with Zerodha demat account"} />
