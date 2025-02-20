@@ -36,7 +36,3 @@ For queries, visit the [Zerodha Support Center](https://support.zerodha.com/) or
 
 ## Legal & Compliance  
 Zerodha is registered with **SEBI** and follows all regulatory guidelines. Read the **terms and conditions** [here](https://zerodha.com/terms/).  
-
----
-
-📢 **Stay Updated**: Follow [@zerodhaonline](https://twitter.com/zerodhaonline) on Twitter for news and updates.  
