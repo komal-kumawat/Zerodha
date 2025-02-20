@@ -1,9 +1,10 @@
+import AccountChargesTable from "@/components/AccountChargesTable";
 import Heading from "@/components/Heading";
 import ImageHeadingContentColumn from "@/components/ImageHeadingContentColumn";
 
 export default function Pricing() {
     return (
-        <div className="py-[100px] px-[50px] flex flex-col items-center">
+        <div className="py-[100px] px-[50px] flex flex-col items-center lg:mx-[100px]">
             <div className="p-[50px] text-center">
                 <Heading text="Charges" type="h1" />
                 <p className="text-gray-400 text-[20px]">List of all charges and taxes</p>
@@ -25,6 +26,8 @@ export default function Pricing() {
                     content="All direct mutual fund investments are absolutely free — ₹ 0 commissions & DP charges."
                 />
             </div>
+            <Heading text="Charges for Account Opening" type="h1"/>
+            <AccountChargesTable/>
         </div>
     );
 }

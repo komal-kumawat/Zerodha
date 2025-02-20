@@ -86,33 +86,42 @@ export default function Navbar() {
           {/* Extra Elements (Always Inside Hamburger) */}
 
           <li>
-            <a href="/" className="block" onClick={() => setIsOpen(false)}>
+            <a href="/" className="block flex items-center " onClick={() => setIsOpen(false)}>
+              <Image src={"/kite-logo.svg"} width={30} height={10}alt=""/>
               Kite
             </a>
           </li>
           <li>
-            <a href="/" className="block" onClick={() => setIsOpen(false)}>
+            <a href="/" className="block flex items-center" onClick={() => setIsOpen(false)}>
+            <Image src={"/console.svg"} width={30} height={10}alt=""/>
+              
               Console
             </a>
           </li>
           <li>
-            <a href="/" className="block" onClick={() => setIsOpen(false)}>
+            <a href="/" className="block flex items-center" onClick={() => setIsOpen(false)}>
+            <Image src={"/kite-connect.svg"} width={30} height={10}alt=""/>
+             
               Kite Connect
             </a>
           </li>
           <li>
-            <a href="/" className="block" onClick={() => setIsOpen(false)}>
+            <a href="/" className="block flex items-center" onClick={() => setIsOpen(false)}>
+            <Image src={"/coin.svg"} width={30} height={10}alt=""/>
+              
               Coin
             </a>
           </li>
           <li>
-            <a href="/console" className="block" onClick={() => setIsOpen(false)}>
-              Varsity
+            <a href="/console" className="block flex items-center" onClick={() => setIsOpen(false)}>
+            <Image src={"/varsity.png"} width={30} height={10}alt=""/>
+            Varsity
             </a>
           </li>
           <li>
-            <a href="/" className="block" onClick={() => setIsOpen(false)}>
-              Trading Q&A
+            <a href="/" className="block flex items-center" onClick={() => setIsOpen(false)}>
+            <Image src={"/tqna.png"} width={30} height={10}alt=""/>
+            Trading Q&A
             </a>
           </li>
         </ul>
